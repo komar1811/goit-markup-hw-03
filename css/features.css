@@ -14,3 +14,7 @@
 .features-element {
   width: calc((100% - 3 * 24px) / 4);
 }
+
+.features-element .features-element-text:first-child {
+  margin-bottom: 8px;
+}
