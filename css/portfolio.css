@@ -6,6 +6,7 @@
 
 .portfolio-element-title {
   line-height: 1.2;
+  margin-bottom: 8px;
 }
 
 .portfolio > .container {
@@ -27,5 +28,7 @@
 }
 
 .portfolio-element .card-content {
-  border: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
