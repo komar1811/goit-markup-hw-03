@@ -7,3 +7,25 @@
 .portfolio-element-title {
   line-height: 1.2;
 }
+
+.portfolio > .container {
+  flex-direction: column;
+  gap: 72px;
+}
+
+.portfolio > .container > .container {
+  gap: 24px;
+  flex-wrap: wrap;
+  row-gap: 48px;
+}
+
+.portfolio-element {
+  width: calc((100% - 48px) / 3);
+  display: block;
+  min-height: 360px;
+  max-height: 420px;
+}
+
+.portfolio-element .card-content {
+  border: 1px solid #e7e9fc;
+}

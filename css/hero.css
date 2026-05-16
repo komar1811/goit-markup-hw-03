@@ -1,11 +1,13 @@
-.hero-section {
+.hero {
   background-color: #2e2f42;
   color: #ffffff;
+  padding: 120px;
 }
 
 .hero-title {
   text-align: center;
   letter-spacing: 0.02em;
+  max-width: 496px;
 }
 
 .hero-button {
@@ -14,6 +16,7 @@
   letter-spacing: 0.04em;
   line-height: 1.5;
   background-color: #4d5ae5;
+  padding: 16px 32px;
 }
 
 .hero-button:hover {
@@ -22,4 +25,9 @@
 
 .hero-button:focus {
   background-color: #404bbf;
+}
+
+.hero .container {
+  flex-direction: column;
+  gap: 48px;
 }

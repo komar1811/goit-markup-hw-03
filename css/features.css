@@ -1,3 +1,11 @@
 .features-element-text {
   letter-spacing: 0.02em;
 }
+
+.features .container {
+  gap: 24px;
+}
+
+.features-element {
+  max-width: calc((100%-3 * 24px) / 4);
+}

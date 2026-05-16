@@ -36,3 +36,25 @@
 .address-element-link:focus {
   color: #404bbf;
 }
+
+.header {
+}
+
+.nav-container {
+  display: flex;
+  height: 72px;
+  align-items: center;
+  gap: 40px;
+}
+
+.address-container {
+  display: flex;
+  height: 72px;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-section .container {
+  flex-direction: column;
+  gap: 48px;
+}
